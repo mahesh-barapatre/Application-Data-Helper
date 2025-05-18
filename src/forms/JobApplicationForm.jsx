@@ -34,7 +34,7 @@ export default function JobApplicationForm() {
 
     try {
       const response = await fetch(
-        "https://script.google.com/macros/s/AKfycbw5dlzJG2lqapIuKCLibifQVS4u9chbCewo8h7gwd8QMtqfmkyEGbfzAaaX28PIbKreTQ/exec",
+        "https://script.google.com/macros/s/AKfycbxgABUF3rKBkPZ1t-12kFlwIAuouCqvsGDDu9JTBxdsM6Z3J-J4pvoIo-k_qpRGJ837NQ/exec",
         {
           method: "POST",
           body: form,
